@@ -1,0 +1,7 @@
+timestamps {
+    node {
+        stage('pipeline') {
+            def status = sh(script: "ls", returnStatus: true)            
+        }
+    }
+}
